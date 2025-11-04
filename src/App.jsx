@@ -10,7 +10,6 @@ export default function App() {
 
   return (
     <div className="page">
-      {/* --- Hero principal --- */}
       <section className="hero-sistecredito">
         <div className="hero-content">
           <div className="hero-text">
@@ -30,7 +29,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* --- Bloques de cómo solicitar --- */}
       <section className="como-solicitar">
         <h2>
           ¿Cómo solicitar <span>tu crédito?</span>
@@ -58,11 +56,10 @@ export default function App() {
         </div>
       </section>
 
-      {/* --- Aquí va el widget de Vapi flotante --- */}
       <VapiWidget
         publicKey={publicKey}
         assistantId={assistantId}
-        mode="hybrid"
+        mode="voice"
         theme="light"
         size="compact"
         position="bottom-right"

@@ -12,7 +12,6 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-/* Hero principal */
 .hero-sistecredito {
   background: var(--sc-blue);
   color: #fff;
@@ -50,7 +49,6 @@ body {
   object-fit: contain;
 }
 
-/* Sección cómo solicitar */
 .como-solicitar {
   text-align: center;
   padding: 60px 20px;
@@ -100,7 +98,6 @@ body {
   font-size: 0.95rem;
 }
 
-/* Widget section */
 .widget-section {
   background: linear-gradient(180deg, #fff 0%, #f2f6ff 100%);
   text-align: center;
